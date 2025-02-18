@@ -3,7 +3,7 @@ function greet(a,b,c){
   var sum = parseInt(a, 10);
   var suma = (sum/59) * 60;
 
-  var sumb = parseINt(b, 10);
+  var sumb = parseInt(b, 10);
   var asrb = (sumb/59) * 60;
   
   //contain.textContent = "The result is"+""+ sum;
