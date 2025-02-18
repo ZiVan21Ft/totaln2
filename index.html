@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>document</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="paper">
+      <label for="a" id="inno">文法 と ごい</label>
+      <input type="text" name="a" id="a" onkeypress="return isInputNumber(event)" placeholder="Fill Your's Mark"> </br>
+      <label for="b" id="inno">読解</label>
+      <input type="text" name="b" id="b" onkeypress="return isInputNumber(event)" placeholder="Fill Your's Mark"> </br>
+      <label for="c" id="inno">聴解</label>
+      <input type="text" name="c" id="c" onkeypress="return isInputNumber(event)" placeholder="Fill Your's Mark"> </br>
+      <button onclick="greet(getElementById('a').value,getElementById('b').value,getElementById('c').value)">caculate</button>
+      <p id="contain">The result is none.</p>
+    </div>
+  </div>
+</body>
+<script src=name.js></script>
+</html>
